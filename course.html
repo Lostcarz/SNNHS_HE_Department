@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Courses</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="sub-course">
+            <nav>
+                <a href="index.html"><img src="images/Logo-removebg-preview (1).png" alt=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Courses </h1>
+
+</section>
+
+
+<section class="course">
+    <h1>HE Courses</h1>
+    <p>Our school provide the following courses:</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Bread and Pastries Production (BPP)</h3>
+            <p>The preliminaries of this specialization course includes the following: 1) Explain core concepts in bread & pastry production; 2) Discuss the relevance of the course 3) Explore
+                on opportunities for a Baker or Commis as a career.
+                <br> <br> <a href="https://www.deped.gov.ph/wp-content/uploads/2019/01/Bread-and-Pastry-NC-II-CG.pdf?fbclid=IwAR04Ae8yY8m0Lp0I4T-FYVdem7raiPkcV4VUxkyLs80ZJRkcopNsCB73nq4" class="hero-btn green-btn">Click Here For More Details</a></p>
+        </div>
+        <div class="course-col">
+            <h3>Food and Beverage Services(FBS)</h3>
+            <p>The preliminaries of this specialization course include the following: (1) core concepts in food and beverage services, (2) the relevance of the course, and
+                (3) exploration of career opportunities as a Food Attendant or Chef de rang.
+                <br> <br> <a href="https://www.deped.gov.ph/wp-content/uploads/2019/01/Food-and-Beverage-Services-NC-II-CG.pdf?fbclid=IwAR2ZbcKxJUEF75zdbjJWB0Evl2l5bs_KlTGQwWoblk_rOUdOoMajBM60DcQ" class="hero-btn green-btn">Click Here For More Details</a></p>
+        </div>
+        
+    </div>
+
+
+    <section class="facility">
+        <h1>Our Students' Outputs</h1>
+        <p>In our school we make sure that students are given a hands on experience and are creatively free.</p>
+        
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/Bread.jpg" alt="">
+                <h3>BPP Products</h3>
+                <p>Ensaymada made by our BPP students</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/Coffee.jpg" alt="">
+                <h3>FBS Products</h3>
+                <p>Hot and Iced Coffee made by our FBS students</p>
+            </div>
+        </div>
+        </section>
+
+</section>
+
+<section class="footer">
+    <h4>We are Sto. Ninians!</h4>
+    <p>Mabait. Masigasig. May Disiplina. At Marangal. Mabuhay!</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-envelope"></i>
+    <i class="fa fa-phone"></i>
+    <p>Made by Grade 12 ICT Students in SNNHS</p>
+</div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("nav-links");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script>
+    </body>
+</html>
