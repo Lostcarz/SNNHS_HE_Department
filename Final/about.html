@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/Logo-removebg-preview (1).png" alt=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> About Us </h1>
+
+</section>
+
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We provide hands-on lessons and experiences</h1>
+                    <p> The HE strand focuses on livelihood projects such as caregiving, cookery, bartending, baking, handicraft making, tourism, housekeeping, dressmaking, and such. This strand will greatly help students find jobs immediately. 
+                       <br> <br> Sto. Nino National Highschool provides two courses for the TVL-HE strand. Bread and Pastry Productions for grade 11 students and Food and Beverage Services for grade 12 students
+
+                       <br><br> Both of which provides hands on lessons and gives experiences for students to be prepared for a real work scenario. Lots of chances await you after you finish this strand. You can either put up a business or continue to college—the choice is yours.
+                    </p>
+                    <a href="course.html" class="hero-btn green-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/About.jpg">
+                </div>
+            </div>
+        </section>
+
+
+<section class="footer">
+    <h4>We are Sto. Ninians!</h4>
+    <p>Mabait. Masigasig. May Disiplina. At Marangal. Mabuhay!</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-envelope"></i>
+    <i class="fa fa-phone"></i>
+    <p>Made by Grade 12 ICT Students in SNNHS</p>
+</div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("nav-links");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script>
+    </body>
+</html>
